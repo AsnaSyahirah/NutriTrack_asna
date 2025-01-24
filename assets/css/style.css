@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004aad;
+    color: white;
+    padding: 15px 0;
+}
+
+h1, h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+table {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+button, a.btn {
+    text-transform: uppercase;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust height for centering */
+}
+
