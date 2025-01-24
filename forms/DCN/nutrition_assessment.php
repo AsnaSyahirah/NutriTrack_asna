@@ -1250,13 +1250,4 @@ function displaySectionE() {
     </script>
 <?php
 }
-    <form action="nutrition_assessment.php?section=E" method="POST">
-        <div class="form-section">
-            <label for="additional_notes">Additional Notes:</label>
-            <textarea name="additional_notes"><?php echo isset($_SESSION['additional_notes']) ? $_SESSION['additional_notes'] : ''; ?></textarea><br>
-
-            <input type="submit" value="Submit and Save Final Assessment">
-        </div>
-    </form>
-}
 ?>
